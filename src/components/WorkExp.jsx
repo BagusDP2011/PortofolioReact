@@ -7,17 +7,19 @@ const WorkExp = () => {
       paddingX={{ lg: "24px", md: "16px" }}
     >
       <div id="workExp">
-        <Text fontSize="26px">
+        <br/>
+        <Text fontSize={{ sm: "24px", base:"16px" }}>
           <b>Working Experience </b>
         </Text>
         <br />
-        <Text fontSize="20px">
+        <Text fontSize={{ sm: "20px", base:"12px" }}>
           <b>IT Environment </b>
         </Text>
         <br />
         <Grid
           gridTemplateColumns={"1fr 20fr 20fr 1fr"}
-          gap={{ lg: "50px", md: "40px", sm: "30px" }}
+          gap={{ lg: "50px", md: "40px", sm: "30px", base:'20px'}}
+          fontSize={{ sm: "18px", base:"10px" }}
         >
           <GridItem></GridItem>
           <GridItem>
@@ -261,13 +263,14 @@ const WorkExp = () => {
         </Grid>
         <br />
         <br />
-        <Text fontSize="20px">
+        <Text fontSize={{ sm: "20px", base:"12px" }}>
           <b>Manufacturing Environment </b>
         </Text>
         <br />
         <Grid
           gridTemplateColumns={"1fr 20fr 20fr 1fr"}
-          gap={{ lg: "50px", md: "40px", sm: "30px" }}
+          gap={{ lg: "50px", md: "40px", sm: "30px", base:"20px" }}
+          fontSize={{ sm: "18px", base:"10px" }}
         >
           <GridItem></GridItem>
           <GridItem textAlign={"justify"}>

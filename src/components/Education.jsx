@@ -7,19 +7,21 @@ const Education = () => {
       paddingX={{ lg: "24px", md: "16px" }}
     >
       <div id="education">
-      <Text fontSize="26px">
-        <b> Education </b>
-      </Text>
+        <br />
+        <Text fontSize={{ sm: "24px", base: "16px" }}>
+          <b> Education </b>
+        </Text>
         <br />
         <Grid
           gridTemplateColumns={"1fr 1fr 1fr"}
           width={"90%"}
-          gap={{ lg: "25px", md: "25px", sm: "25px" }}
+          gap={{ lg: "25px", md: "25px", sm: "25px", base: "25px" }}
           alignSelf={"center"}
           alignItems={"center"}
           justifyContent={"center"}
           justifyItems={"center"}
-          marginLeft={{ lg: "75px", md: "56px", sm: "40px" }}
+          marginLeft={{ lg: "75px", md: "56px", sm: "40px", base: "20px" }}
+          fontSize={{ sm: "16px", base: "12px" }}
         >
           <GridItem>
             <Image
@@ -37,7 +39,11 @@ const Education = () => {
               height="20%"
             />
           </GridItem>
-          <GridItem justifyItems={"center"} alignContent={"center"} alignItems={"center"}>
+          <GridItem
+            justifyItems={"center"}
+            alignContent={"center"}
+            alignItems={"center"}
+          >
             <Image
               src={require("../assets/03 Smkn1.png")}
               alt="03 SMKN 1"
@@ -55,23 +61,24 @@ const Education = () => {
             <Text textAlign={"center"}>SMKN 1 Batam</Text>
           </GridItem>
           <GridItem>
-            <Text textAlign={"justify"}>
-            Currently studying the IT world where we create a website and our own 
-            program. I hope to get a very big education and career from here.
+            <Text textAlign={{ sm: "justify", base: "center" }}>
+              Currently studying the IT world where we create a website and our
+              own program. I hope to get a very big education and career from
+              here.
             </Text>
           </GridItem>
           <GridItem>
-            <Text textAlign={"justify"}>
-            Here I studied various building model designs and their supports. The 
-            essence of this major is to combine all the designs and details into 
-            one.
+            <Text textAlign={{ sm: "justify", base: "center" }}>
+              Here I studied various building model designs and their supports.
+              The essence of this major is to combine all the designs and
+              details into one.
             </Text>
           </GridItem>
           <GridItem>
-            <Text textAlign={"justify"}>
-            Favorite Vocational school where I learn everything with IT. Many are 
-            tempted because IT is the best, but for myself it's because I like IT 
-            from a young age.
+            <Text textAlign={{ sm: "justify", base: "center" }}>
+              Favorite Vocational school where I learn everything with IT. Many
+              are tempted because IT is the best, but for myself it's because I
+              like IT from a young age.
             </Text>
           </GridItem>
           <GridItem textDecoration={"underline"}>

@@ -26,10 +26,10 @@ function App() {
       ></link>
       <Grid
         gridTemplateColumns={"1fr 1fr 1fr 1fr 1fr"}
-        height={"50px"}
+        height={{sm:"50px", base:"30px"}}
         textAlign={"center"}
         marginTop={"10px"}
-        fontSize={{ lg: "20px", md: "16px", sm: "12px" }}
+        fontSize={{ lg: "20px", md: "16px", sm: "12px", base:'8px' }}
       >
         <GridItem borderBottom={"1px solid black"}>
           <Box id="navbar">

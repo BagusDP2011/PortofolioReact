@@ -41,7 +41,7 @@ const Intro = () => {
               <Box>
                 <Text
                   className="titleName"
-                  fontSize={{ lg: "30px", md: "24px", sm: "18px" }}
+                  fontSize={{ lg: "30px", md: "24px", sm: "18px", base:"15px" }}
                   fontFamily="Inter"
                   fontWeight="bold"
                 >
@@ -49,17 +49,17 @@ const Intro = () => {
                 </Text>
                 <Text
                   className="titleSub"
-                  fontSize={{ lg: "26px", md: "20px", sm: "15px" }}
+                  fontSize={{ lg: "26px", md: "20px", sm: "15px", base:"12px" }}
                 >
                   An IT Enthusiast
                 </Text>
                 <Text
                   fontWeight="bold"
-                  fontSize={{ lg: "20px", md: "18px", sm: "12px" }}
+                  fontSize={{ lg: "20px", md: "18px", sm: "12px", base:"10px" }}
                 >
                   Contact Details
                 </Text>
-                <Text fontSize={{ lg: "20px", md: "18px", sm: "10px" }}>
+                <Text fontSize={{ lg: "20px", md: "18px", sm: "10px", base:"8px" }}>
                   Batam, Kepulauan Riau <br />
                   Phone/WhatsApp: 081278732817 <br />
                   Email: bagusdp2011@email.com <br />
@@ -68,7 +68,7 @@ const Intro = () => {
 
                 <Text
                   className="titleDesc"
-                  fontSize={{ lg: "20px", md: "18px", sm: "10px" }}
+                  fontSize={{ lg: "20px", md: "18px", sm: "10px", base:"8px"}}
                   textAlign={"left"}
                   marginLeft={{ lg: "30px", md: "20px", sm: "10px" }}
                 >
@@ -171,6 +171,9 @@ const Intro = () => {
                 }
                 alignSelf="center"
                 colorScheme="blackAlpha"
+                width={{ sm: "100px", base:"50px" }}
+                height={{ sm: "50px", base:"25px" }}
+                fontSize={{ sm: "16px", base:"8px" }}
               >
                 Visit Me
               </Button>

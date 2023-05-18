@@ -7,12 +7,13 @@ const ProfessionalSumm = () => {
       paddingX={{ lg: "24px", md: "16px" }}
       id="proSumm"
     >
-      <Text fontSize="26px">
+      <br />
+      <Text fontSize={{ sm: "24px", base:"16px" }}>
         <b>Professional Summary </b>
       </Text>
       <br />
-      <Box width={"95%"} textAlign={"justify"}>
-        <Text marginLeft={{ lg: "75px", md: "56px", sm: "40px" }}>
+      <Box width={"95%"} textAlign={"justify"} fontSize={{ sm: "16px", base: "12px" }}>
+        <Text marginLeft={{ lg: "75px", md: "56px", sm: "40px", base: "20px"}}>
         As an experienced Field Service Engineer, I have a strong skill set in 
         performing troubleshooting and operational tasks on various types of 
         equipment and machines. My focus is on providing excellent customer 
