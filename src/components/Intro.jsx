@@ -14,11 +14,7 @@ import "../App.css";
 const Intro = () => {
   return (
     <div id="mainpage">
-      <Box
-        paddingX={{ md: "16px", lg: "20px" }}
-        paddingTop={"20px"}
-      >
-        {/* <Box  /> */}
+      <Box paddingX={{ md: "16px", lg: "20px" }} paddingTop={"20px"}>
         <Grid
           gridTemplateColumns={"1fr 10fr 10fr 1fr"}
           alignSelf={"center"}
@@ -45,7 +41,7 @@ const Intro = () => {
               <Box>
                 <Text
                   className="titleName"
-                  fontSize={{ lg: "30px", md: "26px", sm: "20px" }}
+                  fontSize={{ lg: "30px", md: "24px", sm: "18px" }}
                   fontFamily="Inter"
                   fontWeight="bold"
                 >
@@ -53,18 +49,29 @@ const Intro = () => {
                 </Text>
                 <Text
                   className="titleSub"
-                  fontSize={{ lg: "30px", md: "26px", sm: "20px" }}
+                  fontSize={{ lg: "26px", md: "20px", sm: "15px" }}
                 >
                   An IT Enthusiast
                 </Text>
-                <Text fontWeight="bold" fontSize="24px">
+                <Text
+                  fontWeight="bold"
+                  fontSize={{ lg: "20px", md: "18px", sm: "12px" }}
+                >
                   Contact Details
                 </Text>
-                <Text className="titleDesc">
+                <Text fontSize={{ lg: "20px", md: "18px", sm: "10px" }}>
                   Batam, Kepulauan Riau <br />
                   Phone/WhatsApp: 081278732817 <br />
                   Email: bagusdp2011@email.com <br />
                   <br />
+                </Text>
+
+                <Text
+                  className="titleDesc"
+                  fontSize={{ lg: "20px", md: "18px", sm: "10px" }}
+                  textAlign={"left"}
+                  marginLeft={{ lg: "30px", md: "20px", sm: "10px" }}
+                >
                   <div className="contactMe">
                     <div className="contactMeTitle">
                       <b>Talk to me!</b>
@@ -126,8 +133,8 @@ const Intro = () => {
                         <img
                           src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"
                           alt="GitHub"
-                          width="40px"
-                          height="20px"
+                          width="30px"
+                          height="30px"
                         />
                         <a
                           href="https://github.com/BagusDP2011"

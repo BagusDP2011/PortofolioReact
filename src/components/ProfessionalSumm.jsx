@@ -5,12 +5,13 @@ const ProfessionalSumm = () => {
     <Box
       marginTop={{ lg: "50px", md: "36px", sm: "25px" }}
       paddingX={{ lg: "24px", md: "16px" }}
+      id="proSumm"
     >
       <Text fontSize="26px">
         <b>Professional Summary </b>
       </Text>
       <br />
-      <Box id="proSumm" width={"95%"} textAlign={"justify"}>
+      <Box width={"95%"} textAlign={"justify"}>
         <Text marginLeft={{ lg: "75px", md: "56px", sm: "40px" }}>
         As an experienced Field Service Engineer, I have a strong skill set in 
         performing troubleshooting and operational tasks on various types of 

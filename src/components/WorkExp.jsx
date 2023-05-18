@@ -36,144 +36,186 @@ const WorkExp = () => {
               </div>
               <div className="manufactureAbility">Programmer Knowledge :</div>
               <HStack>
-                <Image
-                  src={require("../assets/language/html5.jpg")}
-                  title="HTML5"
-                  alt="HTML"
-                  width="40px"
-                  height="40px"
-                />
-                <Image
-                  src={require("../assets/language/css3.jpg")}
-                  title="CSS3"
-                  alt="CSS"
-                  width="40px"
-                  height="40px"
-                />
-                <Image
-                  src={require("../assets/language/react.jpg")}
-                  title="React"
-                  alt="React"
-                  width="40px"
-                  height="40px"
-                />
-                <Image
-                  src={require("../assets/language/javascript.jpg")}
-                  title="JavaScript"
-                  alt="JavaScript"
-                  width="40px"
-                  height="40px"
-                />
-                <Image
-                  src={require("../assets/language/mysql.jpg")}
-                  title="MySQL"
-                  alt="MySQL"
-                  width="40px"
-                  height="40px"
-                />
-                <Image
-                  src={require("../assets/language/nodejs.jpg")}
-                  title="NodeJS"
-                  alt="NodeJS"
-                  width="40px"
-                  height="40px"
-                />
-                <Image
-                  src={require("../assets/language/git.jpg")}
-                  title="Git"
-                  alt="Git"
-                  width="40px"
-                  height="40px"
-                />
-                <Image
-                  src={require("../assets/language/express.jpg")}
-                  title="Express"
-                  alt="Express"
-                  width="40px"
-                  height="40px"
-                />
-                <Image
-                  src={require("../assets/language/mongodb.jpg")}
-                  title="MongoDB"
-                  alt="MongoDB"
-                  width="40px"
-                  height="40px"
-                />
-                <Image
-                  src={require("../assets/language/sequelize.jpg")}
-                  title="Sequelize"
-                  alt="Sequelize"
-                  width="40px"
-                  height="40px"
-                />
+                <Grid gridTemplateColumns={"1fr 1fr 1fr 1fr 1fr"} gap={'10px'}>
+                  <GridItem>
+                    <Image
+                      src={require("../assets/language/html5.jpg")}
+                      title="HTML5"
+                      alt="HTML"
+                      width="40px"
+                      height="40px"
+                    />
+                  </GridItem>
+                  <GridItem>
+                    <Image
+                      src={require("../assets/language/css3.jpg")}
+                      title="CSS3"
+                      alt="CSS"
+                      width="40px"
+                      height="40px"
+                    />
+                  </GridItem>
+                  <GridItem>
+                    <Image
+                      src={require("../assets/language/react.jpg")}
+                      title="React"
+                      alt="React"
+                      width="40px"
+                      height="40px"
+                    />
+                  </GridItem>
+                  <GridItem>
+                    <Image
+                      src={require("../assets/language/javascript.jpg")}
+                      title="JavaScript"
+                      alt="JavaScript"
+                      width="40px"
+                      height="40px"
+                    />
+                  </GridItem>
+                  <GridItem>
+                    <Image
+                      src={require("../assets/language/mysql.jpg")}
+                      title="MySQL"
+                      alt="MySQL"
+                      width="40px"
+                      height="40px"
+                    />
+                  </GridItem>
+                  <GridItem>
+                    <Image
+                      src={require("../assets/language/nodejs.jpg")}
+                      title="NodeJS"
+                      alt="NodeJS"
+                      width="40px"
+                      height="40px"
+                    />
+                  </GridItem>
+                  <GridItem>
+                    <Image
+                      src={require("../assets/language/git.jpg")}
+                      title="Git"
+                      alt="Git"
+                      width="40px"
+                      height="40px"
+                    />
+                  </GridItem>
+                  <GridItem>
+                    <Image
+                      src={require("../assets/language/express.jpg")}
+                      title="Express"
+                      alt="Express"
+                      width="40px"
+                      height="40px"
+                    />
+                  </GridItem>
+                  <GridItem>
+                    <Image
+                      src={require("../assets/language/mongodb.jpg")}
+                      title="MongoDB"
+                      alt="MongoDB"
+                      width="40px"
+                      height="40px"
+                    />
+                  </GridItem>
+                  <GridItem>
+                    <Image
+                      src={require("../assets/language/sequelize.jpg")}
+                      title="Sequelize"
+                      alt="Sequelize"
+                      width="40px"
+                      height="40px"
+                    />
+                  </GridItem>
+                </Grid>
               </HStack>
               <br />
               <Box>
                 <Text>Software Skills:</Text>
                 <HStack>
-                  <Image
-                    src={require("../assets/software/AutoCAD.jpg")}
-                    title="AutoCAD"
-                    alt="AutoCAD"
-                    width="40px"
-                    height="40px"
-                  />
-                  <Image
-                    src={require("../assets/software/revit.jpg")}
-                    title="Revit"
-                    alt="Revit"
-                    width="40px"
-                    height="40px"
-                  />
-                  <Image
-                    src={require("../assets/software/office.jpg")}
-                    title="Ms. Office"
-                    alt="Ms. Office"
-                    width="40px"
-                    height="40px"
-                  />
-                  <Image
-                    src={require("../assets/software/windows_11.jpg")}
-                    title="Windows Operating System"
-                    alt="Windows Operating System"
-                    width="40px"
-                    height="40px"
-                  />
-                  <Image
-                    src={require("../assets/software/network.jpg")}
-                    title="Physical Network Connection"
-                    alt="Physical Network Connection"
-                    width="40px"
-                    height="40px"
-                  />
-                  <Image
-                    src={require("../assets/software/browser.jpg")}
-                    title="Internet connection troubleshoot"
-                    alt="Internet connection troubleshoot"
-                    width="40px"
-                    height="40px"
-                  />
-                  <Image
-                    src={require("../assets/software/photoshop.jpg")}
-                    title="Photoshop 2022"
-                    alt="Photoshop 2022"
-                    width="40px"
-                    height="40px"
-                  />
-                  <Image
-                    src={require("../assets/software/filmora.jpg")}
-                    title="Wondershare Filmora 12"
-                    alt="Wondershare Filmora 12"
-                    width="40px"
-                    height="40px"
-                  />
-                  <Image
-                    src={require("../assets/software/vscode.jpg")}
-                    title="Visual Studio Code"
-                    alt="Visual Studio Code"
-                    width="40px"
-                    height="40px"
-                  />
+                  <Grid gridTemplateColumns={"1fr 1fr 1fr 1fr 1fr"} gap={'10px'}>
+                    <GridItem>
+                      <Image
+                        src={require("../assets/software/AutoCAD.jpg")}
+                        title="AutoCAD"
+                        alt="AutoCAD"
+                        width="40px"
+                        height="40px"
+                      />
+                    </GridItem>
+                    <GridItem>
+                      <Image
+                        src={require("../assets/software/revit.jpg")}
+                        title="Revit"
+                        alt="Revit"
+                        width="40px"
+                        height="40px"
+                      />
+                    </GridItem>
+                    <GridItem>
+                      <Image
+                        src={require("../assets/software/office.jpg")}
+                        title="Ms. Office"
+                        alt="Ms. Office"
+                        width="40px"
+                        height="40px"
+                      />
+                    </GridItem>
+                    <GridItem>
+                      <Image
+                        src={require("../assets/software/windows_11.jpg")}
+                        title="Windows Operating System"
+                        alt="Windows Operating System"
+                        width="40px"
+                        height="40px"
+                      />
+                    </GridItem>
+                    <GridItem>
+                      <Image
+                        src={require("../assets/software/network.jpg")}
+                        title="Physical Network Connection"
+                        alt="Physical Network Connection"
+                        width="40px"
+                        height="40px"
+                      />
+                    </GridItem>
+                    <GridItem>
+                      <Image
+                        src={require("../assets/software/browser.jpg")}
+                        title="Internet connection troubleshoot"
+                        alt="Internet connection troubleshoot"
+                        width="40px"
+                        height="40px"
+                      />
+                    </GridItem>
+                    <GridItem>
+                      <Image
+                        src={require("../assets/software/photoshop.jpg")}
+                        title="Photoshop 2022"
+                        alt="Photoshop 2022"
+                        width="40px"
+                        height="40px"
+                      />
+                    </GridItem>
+                    <GridItem>
+                      <Image
+                        src={require("../assets/software/filmora.jpg")}
+                        title="Wondershare Filmora 12"
+                        alt="Wondershare Filmora 12"
+                        width="40px"
+                        height="40px"
+                      />
+                    </GridItem>
+                    <GridItem>
+                      <Image
+                        src={require("../assets/software/vscode.jpg")}
+                        title="Visual Studio Code"
+                        alt="Visual Studio Code"
+                        width="40px"
+                        height="40px"
+                      />
+                    </GridItem>
+                  </Grid>
                 </HStack>
               </Box>
             </div>
@@ -293,7 +335,7 @@ const WorkExp = () => {
                   borderRadius={"10px"}
                 />
               </div>
-              <br/>
+              <br />
               <div className="manufactureImgTitle">
                 PCBA Electronics Manufacturing
               </div>

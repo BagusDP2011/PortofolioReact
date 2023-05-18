@@ -6,15 +6,15 @@ const Education = () => {
       marginTop={{ lg: "50px", md: "36px", sm: "25px" }}
       paddingX={{ lg: "24px", md: "16px" }}
     >
+      <div id="education">
       <Text fontSize="26px">
         <b> Education </b>
       </Text>
-      <div id="education">
         <br />
         <Grid
           gridTemplateColumns={"1fr 1fr 1fr"}
           width={"90%"}
-          gap={{ lg: "20px", md: "15px", sm: "10px" }}
+          gap={{ lg: "25px", md: "25px", sm: "25px" }}
           alignSelf={"center"}
           alignItems={"center"}
           justifyContent={"center"}

@@ -20,33 +20,48 @@ function App() {
         I hope this is enough to show that I am understand how to create basic 
         front-end related knowledge. Please help me improve my skills."
       />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      ></link>
       <Grid
-        gridTemplateColumns={"1fr 1fr 1fr 1fr"}
+        gridTemplateColumns={"1fr 1fr 1fr 1fr 1fr"}
         height={"50px"}
         textAlign={"center"}
         marginTop={"10px"}
+        fontSize={{ lg: "20px", md: "16px", sm: "12px" }}
       >
         <GridItem borderBottom={"1px solid black"}>
           <Box id="navbar">
-            <Box fontSize={"20px"}>
-              <a href="#mainpage"> Mainpage </a>
+            <Box>
+              <a href="#mainpage">Mainpage</a>
             </Box>
           </Box>
         </GridItem>
         <GridItem borderBottom={"1px solid black"}>
-          <Box fontSize={"20px"}>
-            <a href="#education"> Education </a>
+          <Box>
+            <a href="#proSumm">Professional Summary</a>
           </Box>
         </GridItem>
         <GridItem borderBottom={"1px solid black"}>
-          <Box fontSize={"20px"}>
-            <a href="#workExp"> Work Experience </a>
+          <Box>
+            <a href="#education">Education</a>
           </Box>
         </GridItem>
         <GridItem borderBottom={"1px solid black"}>
-          <Box fontSize={"20px"}>
-            <a href="#contactMeBox"> Contact Me </a>
+          <Box>
+            <a href="#workExp">Work Experience</a>
           </Box>
+        </GridItem>
+        <GridItem borderBottom={"1px solid black"} >
+          <a
+            href="https://api.whatsapp.com/send?phone=6281278732817&text=Saya tertarik dan ingin bertanya"
+            class="float"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa fa-whatsapp my-float">WhatsApp me here</i>
+          </a>
         </GridItem>
       </Grid>
 
