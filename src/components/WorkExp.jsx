@@ -7,19 +7,25 @@ const WorkExp = () => {
       paddingX={{ lg: "24px", md: "16px" }}
     >
       <div id="workExp">
-        <br/>
-        <Text fontSize={{ sm: "24px", base:"16px" }}>
+        <br />
+        <Text
+          fontSize={{ sm: "24px", base: "16px" }}
+          marginLeft={{ sm: "20px", base: "15px" }}
+        >
           <b>Working Experience </b>
         </Text>
         <br />
-        <Text fontSize={{ sm: "20px", base:"12px" }}>
+        <Text
+          fontSize={{ sm: "20px", base: "12px" }}
+          marginLeft={{ sm: "20px", base: "15px" }}
+        >
           <b>IT Environment </b>
         </Text>
         <br />
         <Grid
           gridTemplateColumns={"1fr 20fr 20fr 1fr"}
-          gap={{ lg: "50px", md: "40px", sm: "30px", base:'20px'}}
-          fontSize={{ sm: "18px", base:"10px" }}
+          gap={{ lg: "50px", md: "40px", sm: "30px", base: "20px" }}
+          fontSize={{ sm: "18px", base: "10px" }}
         >
           <GridItem></GridItem>
           <GridItem>
@@ -38,7 +44,7 @@ const WorkExp = () => {
               </div>
               <div className="manufactureAbility">Programmer Knowledge :</div>
               <HStack>
-                <Grid gridTemplateColumns={"1fr 1fr 1fr 1fr 1fr"} gap={'10px'}>
+                <Grid gridTemplateColumns={"1fr 1fr 1fr 1fr 1fr"} gap={"10px"}>
                   <GridItem>
                     <Image
                       src={require("../assets/language/html5.jpg")}
@@ -135,7 +141,10 @@ const WorkExp = () => {
               <Box>
                 <Text>Software Skills:</Text>
                 <HStack>
-                  <Grid gridTemplateColumns={"1fr 1fr 1fr 1fr 1fr"} gap={'10px'}>
+                  <Grid
+                    gridTemplateColumns={"1fr 1fr 1fr 1fr 1fr"}
+                    gap={"10px"}
+                  >
                     <GridItem>
                       <Image
                         src={require("../assets/software/AutoCAD.jpg")}
@@ -263,14 +272,17 @@ const WorkExp = () => {
         </Grid>
         <br />
         <br />
-        <Text fontSize={{ sm: "20px", base:"12px" }}>
+        <Text
+          fontSize={{ sm: "20px", base: "12px" }}
+          marginLeft={{ sm: "20px", base: "15px" }}
+        >
           <b>Manufacturing Environment </b>
         </Text>
         <br />
         <Grid
           gridTemplateColumns={"1fr 20fr 20fr 1fr"}
-          gap={{ lg: "50px", md: "40px", sm: "30px", base:"20px" }}
-          fontSize={{ sm: "18px", base:"10px" }}
+          gap={{ lg: "50px", md: "40px", sm: "30px", base: "20px" }}
+          fontSize={{ sm: "18px", base: "10px" }}
         >
           <GridItem></GridItem>
           <GridItem textAlign={"justify"}>

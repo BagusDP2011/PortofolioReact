@@ -5,6 +5,7 @@ import ProfessionalSumm from "./components/ProfessionalSumm.jsx";
 import Education from "./components/Education.jsx";
 import WorkExp from "./components/WorkExp.jsx";
 import BottomPage from "./components/BottomPage.jsx";
+import Projects from "./components/Projects.jsx";
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
       <body>
         <Intro />
         <ProfessionalSumm />
+        <Projects />
         <Education />
         <WorkExp />
         <BottomPage />

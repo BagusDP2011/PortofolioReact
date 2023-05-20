@@ -8,7 +8,8 @@ const ProfessionalSumm = () => {
       id="proSumm"
     >
       <br />
-      <Text fontSize={{ sm: "24px", base:"16px" }}>
+      <Text fontSize={{ sm: "24px", base:"16px" }}
+      marginLeft={{ sm: "20px", base:"15px" }}>
         <b>Professional Summary </b>
       </Text>
       <br />

@@ -8,7 +8,8 @@ const Education = () => {
     >
       <div id="education">
         <br />
-        <Text fontSize={{ sm: "24px", base: "16px" }}>
+        <Text fontSize={{ sm: "24px", base: "16px" }}
+        marginLeft={{ sm: "20px", base:"15px" }}>
           <b> Education </b>
         </Text>
         <br />
